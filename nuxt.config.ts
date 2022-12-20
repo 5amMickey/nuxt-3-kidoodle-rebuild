@@ -1,4 +1,7 @@
 export default defineNuxtConfig({
+  app: {
+    pageTransition: { name: 'page', mode: 'out-in' }
+  },
   runtimeConfig: {
     // The private keys which are only available server-side
     apiSecret: '123',
