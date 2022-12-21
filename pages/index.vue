@@ -11,3 +11,8 @@
     <div class="bg-cool-gray-700 h-52"></div>
   </div>
 </template>
+
+<script lang="ts" setup>
+  const seriesData = useSeries();
+  console.log('seriesData', seriesData);
+</script>
