@@ -1,5 +1,5 @@
 <template>
   <section>
-    <p>Profiles Page</p>
+    <p>Search Page</p>
   </section>
 </template>

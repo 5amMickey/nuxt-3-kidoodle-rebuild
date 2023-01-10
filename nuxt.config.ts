@@ -1,6 +1,13 @@
 export default defineNuxtConfig({
   app: {
-    pageTransition: { name: 'page', mode: 'out-in' }
+    head: {
+      title: 'Kidoodle.TV App Rebuild',
+      meta: [
+        // <meta name="description" content="My amazing site">
+        { name: 'description', content: 'Kidoodle Rebuild.' },
+      ],
+    },
+    pageTransition: { name: 'page', mode: 'out-in' },
   },
   runtimeConfig: {
     // The private keys which are only available server-side

@@ -1,5 +1,5 @@
 <template>
   <section>
-    <p>Profiles Page - Task {{ $route.params.task }}</p>
+    <p>Search Page - Query {{ $route.params.query }}</p>
   </section>
 </template>
